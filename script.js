@@ -12,23 +12,23 @@ document.addEventListener("keydown", function (event) {
   }
 
   switch (event.code) {
-    case "KeyQ":
+    case "KeyP":
       let x = Math.random() * canvas.width;
       let y = Math.random() * canvas.height;
       let size = Math.random() * 100 + 50;
       let col = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
       drawRectangle(x, y, size, size, col);
       break;
-    case "KeyW":
+    case "KeyO":
       randomEllipse();
       break;
-    case "KeyE":
+    case "KeyI":
       randomTriangle();
       break;
-    case "KeyR":
+    case "KeyU":
       randomOctagon();
       break;      
-    case "KeyT":
+    case "KeyY":
       randomTarget();
       break;
   }
